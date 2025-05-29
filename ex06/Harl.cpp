@@ -2,6 +2,14 @@
 #include <string>
 #include "Harl.hpp"
 
+Harl::Harl()
+{
+}
+
+Harl::~Harl()
+{
+}
+
 void	Harl::debug( void ) const
 {
 	std::cout << "[DEBUG]> La vie c'est comme une boîte de chocolats, on ne sait jamais sur quoi on va tomber." << std::endl;
@@ -20,14 +28,6 @@ void	Harl::warning( void ) const
 void	Harl::error( void ) const
 {
 	std::cout << "[ERROR]> Le problème se situe toujours entre la chaise et le clavier." << std::endl;
-}
-
-Harl::Harl()
-{
-}
-
-Harl::~Harl()
-{
 }
 
 void	Harl::complain(std::string level) const
